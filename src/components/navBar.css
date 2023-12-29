@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+.nav {
+    position: absolute;
+    width: 100%;    
+    height: 10%;
+    display: flex;
+    background-color: #edff00;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: space-around; */
+}
+.categories, .element, .info {
+    display: flex;
+    flex-direction: row;  
+}
+.element {
+    align-items: center; 
+    padding-left: 12px;
+
+    box-shadow: 0px 0px 0px rgba(33, 33, 33, .2);
+    transition: box-shadow 0.4s;
+    width: fit-content;
+    height: 50px;
+    margin: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: left;
+}
+.element:hover {
+    box-shadow: 8px 8px 18px rgba(33, 33, 33, .2);
+    background: #fff;
+}
+.element img {
+    width: 30px;
+    height: 30px;
+    padding-right: 12px;
+}
+.font {
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+}
+.categories h3 {
+    padding-right: 18px;
+}
+.info {
+    justify-content: center;
+    align-items: center;
+}
+.info img {
+    width: 80px;
+    height: 80px;
+}
+

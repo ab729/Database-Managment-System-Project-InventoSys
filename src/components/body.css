@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+.body {
+    position: absolute;
+    top: 11.1%;
+    left: 22%;
+    width: 90rem;
+    height: 53.1rem;
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(8, 8, 8, 0.2));
+    border-radius: 12px;
+}
+.details, .newOrder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.details {
+    margin-top: 1rem;
+    
+}
+.search {
+    width: 15%;
+    height: 24px;
+    border-radius: 4px;
+    border: none; 
+}
+.input-style {
+    border-radius: 4px;
+    border: none;
+}
+.font {
+    font-size: 16px;
+    font-family: 'PT Sans', sans-serif;
+}
+.newOrder {
+    width: fit-content;
+    height: 60px;
+    background: #edff00;
+    border-radius: 12px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: box-shadow 0.4s;
+    box-shadow: 0px 0px 0px rgba(33, 33, 33, .2);
+}
+.newOrder:hover {
+    box-shadow: 20px 16px 18px rgba(33, 33, 33, .2);
+    background: #fff;
+}
+.newOrder img {
+    width: 25px;
+    height: 25px;
+    padding: 12px;
+}
+#table {
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    table-layout: fixed;
+    
+}
