@@ -9,7 +9,7 @@ export default function Customers() {
     try {
       const response = await fetch("http://localhost:5000/customers")
       const jsonData = await response.json()  
-      setCustomers(jsonData)
+      setCustomers(jsonData.rows)
     } catch (error) {
       console.log(error.message);
     }
@@ -21,7 +21,7 @@ export default function Customers() {
   return (
     <div>
       <Navbar/>
-      <SideBar/>
+      <SideBar num={customers} title="Customers"/>
       <Body props={customers}/>
     </div>
   )
