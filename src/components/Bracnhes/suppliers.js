@@ -56,7 +56,7 @@ export default function Suppliers() {
       <Neworder>
       <img src={require('../../icons/close.ico')} alt="close" className='close-btn' onClick={() => setToggle(false)}/>
       <div className="add-panel font">
-        <h2>Adding a new customer</h2>
+        <h2>Adding a new supplier</h2>
         <p>Please fill the informartion below</p>
         <hr/>
         <h3>Supplier Name:</h3>

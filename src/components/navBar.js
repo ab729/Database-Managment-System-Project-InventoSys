@@ -44,7 +44,7 @@ export default function navBar() {
             <img src={require('../icons/logo.png')} alt="logo" />
         </div>
         <div className="user">
-            <h3>Welcome: {}</h3>
+            <h3>Welcome: Admin</h3>
         </div>
       </div>
     </div>
